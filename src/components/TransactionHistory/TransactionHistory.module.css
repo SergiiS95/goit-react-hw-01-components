@@ -1,0 +1,24 @@
+.transactionHistory {
+  font-family: Sans-Serif;
+  font-size: 14px;
+  background: white;
+  max-width: 500px;
+  width: 70%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  font-weight: normal;
+  color: white;
+  background-color: blue; 
+  padding: 10px 15px;
+}
+td {
+  color: #669;
+border: 1px solid #e8edff;
+  padding: 10px 15px;
+}
+tr:nth-child(2n) {
+  background: #e8edff;
+}
