@@ -11,12 +11,12 @@
 th {
   font-weight: normal;
   color: white;
-  background-color: blue; 
+  background-color: blue;
   padding: 10px 15px;
 }
 td {
   color: #669;
-border: 1px solid #e8edff;
+  border: 1px solid #e8edff;
   padding: 10px 15px;
 }
 tr:nth-child(2n) {
