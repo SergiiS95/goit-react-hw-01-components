@@ -1,29 +1,37 @@
-.item{
-    display: flex;
-    gap: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-    align-items: center;   
-    border: 1px solid grey ;
-    border-radius: 5px;
-    margin-bottom: 7px;
+.item {
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 7px;
 }
 
-.status{
-width: 15px;
-height: 15px;
-border-radius: 50%;
-/* background-color: aqua; */
+.status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
 }
 
-.avatar{
-width: 70px;
-border-radius: 5px;
-
+.online {
+  composes: status;
+  background-color: green;
 }
 
-.name{
-font-size: 25px;
-font-weight: 600;
+.offline {
+  composes: status;
+  background-color: red;
+}
+
+.avatar {
+  width: 70px;
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 600;
 }
